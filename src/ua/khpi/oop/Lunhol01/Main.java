@@ -1,6 +1,9 @@
 package ua.khpi.oop.Lunhol01;
-
+/**
+ * This is my Main class,here I will write my code
+ * */
 public class Main {
+	
 	public static int count_parny(long number) {
 		long buf=number;
 		long num=0;
@@ -40,7 +43,11 @@ public class Main {
 	        }
 	       return count_bin;
 	}
-	
+	/* @author ALEXANDRA
+	  * @version 2.0
+	  * Here start point of the program
+	  * @param args command line values
+	  * */
 	public static void main(String[] args) {
 		final short Book=0x4665;   //0х для считывания числа в 16 системе
 		final long Phone=380989568786L;  //L для типа  long
@@ -49,7 +56,7 @@ public class Main {
 		final byte numG=10;
 		final int number=(numG-1)%26+1;
         final char eng=(char)number+65;
-//        System.out.println(eng);
+        System.out.println(eng);
        
        
         System.out.println("Numer: " + Book + ", Parny: " + count_parny(Book) + ", Not parny: " + count_no_parny(Book)+", BinaryNum: "+Long.toBinaryString(Book)+",BinaryCount: "+count_odin(Book));
