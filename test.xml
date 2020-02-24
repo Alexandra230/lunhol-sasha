@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agency [
+        <!ELEMENT agency (vacancies)*>
+        <!ELEMENT vacancies (firm|specialty|working_Conditions|payment|confirm|optional_properties)*>
+        <!ELEMENT firm (#PCDATA)>
+        <!ELEMENT specialty (#PCDATA)>
+        <!ELEMENT working_Conditions (#PCDATA)>
+        <!ELEMENT payment (#PCDATA)>
+        <!ATTLIST payment
+                currency CDATA #REQUIRED>
+        <!ELEMENT confirm (#PCDATA)>
+        <!ATTLIST confirm
+                boolean CDATA #REQUIRED>
+        <!ELEMENT optional_properties (needsSpeciality|experience|education)*>
+        <!ELEMENT needsSpeciality (#PCDATA)>
+        <!ELEMENT experience (#PCDATA)>
+        <!ELEMENT education (#PCDATA)>
+        ]>
+<agency>
+	<candidat>
+		<number_passport>1251514</number_passport>
+			<specialty>Java Software Engineering</specialty>
+			<working_Conditions>Full Employment</working_Conditions>
+			<marks currency="0||10">5</marks>
+			<payment currency="USA">2600</payment>
+			<data>26545</data>
+			<position>26</position>
+			<education>Higher Education</education>
+			<department>Privet</department>
+	</candidat>
+</agency>
+
