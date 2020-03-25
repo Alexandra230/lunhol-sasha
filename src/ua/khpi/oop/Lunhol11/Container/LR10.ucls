@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ua.khpi.oop.Lunhol10.Container.Container" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Container/Container.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="394" width="237" x="27" y="-100"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ua.khpi.oop.Lunhol10.Container.Container.Node" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Container/Container.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="188" x="27" y="334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="ua.khpi.oop.Lunhol10.Container.Linked" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Container/Linked.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="186" x="410" y="-126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="ua.khpi.oop.Lunhol10.Head.HDR1" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Head/HDR1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="867" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ua.khpi.oop.Lunhol10.Head.Util" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Head/Util.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="212" x="371" y="298"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ua.khpi.oop.Lunhol10.Tests.Demo" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Tests/Demo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="162" x="1112" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="ua.khpi.oop.Lunhol10.Tests.Lab10" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Tests/Lab10.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="162" x="1073" y="157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="ua.khpi.oop.Lunhol10.Tests.UI" project="sashaLunhol" 
+    file="/sashaLunhol/src/ua/khpi/oop/Lunhol10/Tests/UI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1173" y="510"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="13">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="14" name="tail"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="17" name="head"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="21">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="22" name="nextElem"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <nesting id="25">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="29" name="prevElem"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
