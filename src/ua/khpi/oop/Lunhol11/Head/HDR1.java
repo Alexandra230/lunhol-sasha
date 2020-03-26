@@ -208,9 +208,10 @@ public class HDR1 implements Serializable {
 				+ workingConditions + "\n" +"marks = " + marks + "\n" +"payment = " + payment + "\n" + "data = " + data + "\n" + "position = "
 				+ position + "\n" +"education = " + education + "\n" +"department =" + department;
 	}
-	//���������� - ��� ������� ��� ��������� �������� �� ������������ ���� � ���� ���������� �
-	//������������� � ��������� ������ ����
-	public static final Comparator<HDR1> compareByPassport = new Comparator<HDR1>() {
+    //компоратор - это функция для сравнения обьектов по определённому полю в моем контейнере и
+    //использованию в встроеном методе сорт
+
+    public static final Comparator<HDR1> compareByPassport = new Comparator<HDR1>() {
         @Override
         public int compare(HDR1 o1, HDR1 o2) {
             return (int) (o1.getNumberPassport() - o2.getNumberPassport());

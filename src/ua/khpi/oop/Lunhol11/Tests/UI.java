@@ -63,15 +63,15 @@ public class UI {
                             System.out.println(s);
                         }
                     } else {
-                        System.out.println("������! ������ ������!");
+                        System.out.println("Ошибка! Список пустой!");
                     }
                     break;
                 case 3:
                     if (linkedContainer.notEmpty()) {
                         linkedContainer.clear();
-                        System.out.println("�������!");
+                        System.out.println("Успешно!");
                     } else {
-                        System.out.println("������! ������ ������!");
+                        System.out.println("Ошибка! Массив пустой!");
                     }
                     break;
                 case 4:
@@ -131,7 +131,7 @@ public class UI {
                                     loop2 = false;
                                     break;
                                 default:
-                                    System.out.println("������. �������� �����!");
+                                    System.out.println("Ошибка. Неверное число!");
                                     break;
                             }
                         }
@@ -144,7 +144,7 @@ public class UI {
                     loop = false;
                     break;
                 default:
-                    System.out.println("������. �������� �����!");
+                    System.out.println("Ошибка. Неверное число!");
                     break;
             }
         }

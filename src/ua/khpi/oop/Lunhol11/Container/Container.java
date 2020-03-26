@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 
 public class Container<T extends HDR1> implements Linked<T>, Serializable {
 
-	//����������� �������������
+    //конструктор инициализации
     public Container() {
         head = new Node<>(null, null, tail);
         tail = new Node<>(null, head, null);
@@ -183,18 +183,20 @@ public class Container<T extends HDR1> implements Linked<T>, Serializable {
         return Arrays.toString(toArray());
     }
 
-    private Node<T> head; //������ �������
-    private Node<T> tail; //��������� �������
-    private int size = 0; //������ ������
+    private Node<T> head; //первый элемент
+    private Node<T> tail; //последний элемент
+    private int size = 0; //размер списка
+
 
 
     @Override
     public void addLast(final T obj) {
-        Node<T> prev = tail; //���������� ������ ������
-        prev.setCurrentElem(obj); //��������� ��������
-        tail = new Node<>(null, prev, null); //��������� ��������� ������
-        prev.setNextElem(tail); //��������� ��������� �� �����
-        size++; //���������� ������� ������
+        Node<T> prev = tail; //сохранение данных хвоста
+        prev.setCurrentElem(obj); //установка значения
+        tail = new Node<>(null, prev, null); //изменение указателя хвоста
+        prev.setNextElem(tail); //установка указателя на хвост
+        size++; //увелечение размера списка
+
     }
 
     @Override
@@ -213,7 +215,7 @@ public class Container<T extends HDR1> implements Linked<T>, Serializable {
 
     @Override
     public T getElementByIndex(final int index) {
-        Node<T> target = head.getNextElem(); //���� ������� ������� ����
+        Node<T> target = head.getNextElem(); //след элемент первого узла
         for (int i = 0; i < index; i++) {
             target = getNextElement(target);
         }
@@ -227,18 +229,18 @@ public class Container<T extends HDR1> implements Linked<T>, Serializable {
     // head -> null & tail -> null
     // null <- prevElem [head(t = null)] nextElem-> & <- prevElem [head(t = null)] nextElem -> null
     private class Node<T> implements Serializable {
-        private T currentElem; //�������
-        private Node<T> prevElem; //����������
-        private Node<T> nextElem; //��������
+        private T currentElem;
+        private Node<T> prevElem;
+        private Node<T> nextElem;
 
-        //����������� �����������
+
         Node(final T currentElem, final Node<T> prevElem, final Node<T> nextElem) {
             this.currentElem = currentElem;
             this.prevElem = prevElem;
             this.nextElem = nextElem;
         }
 
-        //������� � �������
+
         public T getCurrentElem() {
             return currentElem;
         }

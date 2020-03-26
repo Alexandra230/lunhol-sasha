@@ -2,9 +2,10 @@ package ua.khpi.oop.Lunhol11.Container;
 
 import java.io.IOException;
 import java.io.Serializable;
-//������� ��������� �����
-//���������� ���������� ������� 
-// � �������� (���������)
+//создаем интерфейс линкд
+//обьявление прототипов функций
+// Т джунерик (обобщение)
+
 
 public interface Linked<T> extends Serializable, Iterable<T> {
     void addLast(T obj);

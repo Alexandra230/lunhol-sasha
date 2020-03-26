@@ -4,7 +4,7 @@ import ua.khpi.oop.Lunhol11.Container.Container;
 
 import java.util.Arrays;
 
-//����������. ������
+//параметрез. методы
 public class Util {
 	public static <T extends HDR1> void sortPassport(Container<T> obj) {
 		HDR1[] array = new HDR1[obj.size()];
