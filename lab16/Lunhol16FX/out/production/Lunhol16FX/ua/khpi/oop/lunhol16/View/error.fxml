@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="216.0" prefWidth="468.0" style="-fx-background-color: #FFFAFA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.lunhol16.Controllers.Error">
+    <children>
+        <Label layoutX="30.0" layoutY="22.0" prefHeight="141.0" prefWidth="408.0" text="Error! &#10;You have not entered all the values.&#10;" textFill="#e82727">
+            <font>
+                <Font name="Papyrus" size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="okButton" layoutX="358.0" layoutY="171.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #FFA07A;" text="OK" textAlignment="CENTER" textFill="#e52f16">
+            <font>
+                <Font name="Papyrus" size="9.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

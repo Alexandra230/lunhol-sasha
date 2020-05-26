@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="900.0" style="-fx-background-color: #FFF5EE;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.lunhol16.Controllers.AddVacancy">
+    <children>
+        <MenuBar prefHeight="32.0" prefWidth="900.0">
+            <menus>
+                <Menu fx:id="fileMenu" mnemonicParsing="false" text="File">
+                    <items>
+                  <MenuItem fx:id="backMenuItem" mnemonicParsing="false" text="Back" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem fx:id="clearMenuItem" mnemonicParsing="false" text="Clear" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+      <Label layoutX="268.0" layoutY="39.0" text="ENTER THE DATA:">
+         <font>
+            <Font name="Papyrus" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="backImage" fitHeight="48.0" fitWidth="48.0" layoutX="27.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assist/backbutton_104978.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="passportField" layoutX="208.0" layoutY="107.0" prefHeight="31.0" prefWidth="484.0" promptText="Number Passport" />
+      <TextField fx:id="educationField" layoutX="208.0" layoutY="149.0" prefHeight="31.0" prefWidth="484.0" promptText="Education" />
+      <TextField fx:id="workoiongField" layoutX="208.0" layoutY="191.0" prefHeight="31.0" prefWidth="484.0" promptText="Working conditions" />
+      <TextField fx:id="paymentField" layoutX="208.0" layoutY="232.0" prefHeight="31.0" prefWidth="484.0" promptText="Payment" />
+      <Button fx:id="saveButton" layoutX="392.0" layoutY="460.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="116.0" text="Save" textFill="#383923">
+         <font>
+            <Font name="Papyrus" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="dateField1" layoutX="208.0" layoutY="275.0" prefHeight="31.0" prefWidth="484.0" promptText="Date" />
+      <TextField fx:id="positionField2" layoutX="208.0" layoutY="319.0" prefHeight="31.0" prefWidth="484.0" promptText="Position" />
+      <TextField fx:id="marksField21" layoutX="208.0" layoutY="365.0" prefHeight="31.0" prefWidth="484.0" promptText="Marks" />
+      <TextField fx:id="departmentField" layoutX="208.0" layoutY="411.0" prefHeight="31.0" prefWidth="484.0" promptText="Department" />
+    </children>
+</AnchorPane>
